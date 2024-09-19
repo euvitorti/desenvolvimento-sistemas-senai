@@ -20,8 +20,8 @@ function exibirResultado(operacao, resultado) {
 }
 
 // Declarar e inicializar variáveis
-let a = 10;
-let b = 5;
+let a = 20;
+let b = 2;
 
 // Realizar e exibir as operações
 exibirResultado('soma', calcularOperacao(a, b, 'soma'));
