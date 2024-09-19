@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Operações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Desafio - Responda as Perguntas</h1>
+
+    <form id="formulario">
+        <input type="text" id="nome" placeholder="Qual é o seu nome?" required>
+        <input type="number" id="idade" placeholder="Qual é a sua idade?" required>
+        <input type="text" id="time" placeholder="Qual é o seu time favorito?" required>
+        <input type="text" id="cidade" placeholder="Onde você mora? (Cidade e estado)" required>
+        <input type="text" id="corFavorita" placeholder="Qual é a sua cor favorita?" required>
+        <input type="text" id="hobby" placeholder="Qual é o seu hobby ou atividade preferida?" required>
+        <input type="text" id="ocupacao" placeholder="O que você faz atualmente? (Profissão ou ocupação)" required>
+        <select id="temPet">
+            <option value="nao">Você tem um animal de estimação?</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <input type="text" id="nomePet" placeholder="Qual é o nome dele?">
+        <button type="submit">Enviar Respostas</button>
+    </form>
+
+    <div id="resultado" class="result"></div>
+
+    <!-- Importar o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
